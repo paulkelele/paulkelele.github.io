@@ -44,7 +44,7 @@ btnFeuille.addEventListener('click', function(){
 btnCiseau.addEventListener('click', function(){
 
 	if(tirageAI() == "ciseau"){
-		p.innerHTML=("EGALITE !! L'IA a choisi aussi la Feuille");
+		p.innerHTML=("EGALITE !! L'IA a choisi aussi le Ciseau");
 	}else if(tirageAI() == "feuille"){
 		p.innerHTML=("Tu as PERDU !! L'IA a choisi le Ciseau");
 	}else{
