@@ -4,7 +4,7 @@ var btnPlayer1 = document.getElementById("player1");
 var btnPierre = document.getElementById("pierre");
 var btnFeuille = document.getElementById("feuille");
 var btnCiseau = document.getElementById("ciseau");
-var NbrAleatoire = Math.floor(Math.random() * Math.floor(45) );
+var NbrAleatoireSSSSSSSSSSS = Math.floor(Math.random() * Math.floor(45) );
 var p = document.querySelector("p");
 
 
