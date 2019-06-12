@@ -21,9 +21,9 @@ btnPierre.addEventListener('click', function(){
 	if(tirageAI() == "pierre"){
 		p.innerHTML=("EGALITE !! L'IA a choisi aussi la Pierre");
 	}else if(tirageAI() == "feuille"){
-		p.innerHTML=("Tu as GAGNE !! L'IA a choisi la Feuille ");
+		p.innerHTML=("Tu as PERDU !! L'IA a choisi la Feuille ");
 	}else{
-		p.innerHTML=("TU AS PERDU !! L'IA a choisi le Ciseau");
+		p.innerHTML=("TU AS GAGNE !! L'IA a choisi le Ciseau");
 	}
 
 })
@@ -33,9 +33,9 @@ btnFeuille.addEventListener('click', function(){
 	if(tirageAI() == "feuille"){
 		p.innerHTML=("EGALITE !! L'IA a choisi aussi la Feuille");
 	}else if(tirageAI() == "pierre"){
-		p.innerHTML=("Tu as GAGNE !! L'IA a choisi le Ciseau");
+		p.innerHTML=("Tu as PERDU !! L'IA a choisi le Ciseau");
 	}else{
-		p.innerHTML=("TU AS PERDU !! L'IA a choisi la Pierre");
+		p.innerHTML=("TU AS GAGNE !! L'IA a choisi la Pierre");
 
 	}
 
@@ -46,9 +46,9 @@ btnCiseau.addEventListener('click', function(){
 	if(tirageAI() == "ciseau"){
 		p.innerHTML=("EGALITE !! L'IA a choisi aussi la Feuille");
 	}else if(tirageAI() == "feuille"){
-		p.innerHTML=("Tu as GAGNE !! L'IA a choisi le Ciseau");
+		p.innerHTML=("Tu as PERDU !! L'IA a choisi le Ciseau");
 	}else{
-		p.innerHTML=("TU AS PERDU !! L'IA a choisi la Pierre");
+		p.innerHTML=("TU AS GAGNE !! L'IA a choisi la Pierre");
 
 	}
 
