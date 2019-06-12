@@ -66,11 +66,10 @@ function tirageAI(){
 		case 2:
 		return "feuille";
 		break;
-		case 3:
-		return "feuille";
 			
-		break;
+		
 		default:
+		return "ciseau";
 		return;
 	}
 
