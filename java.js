@@ -19,11 +19,11 @@ function player1(){
 //definition des Bouttons et evenements
 btnPierre.addEventListener('click', function(){
 	if(tirageAI() == "pierre"){
-		p.innerHTML=("EGALITE !! L'IA a choisi aussi la Pierre");
+		p.innerHTML=("TTTTTTTTT! L'IA a choisi aussi la Pierre");
 	}else if(tirageAI() == "feuille"){
-		p.innerHTML=("Tu as PERDU !! L'IA a choisi la Feuille ");
+		p.innerHTML=("TTTTTTTT Tu as PERDU !! L'IA a choisi la Feuille ");
 	}else{
-		p.innerHTML=("TU AS GAGNE !! L'IA a choisi le Ciseau");
+		p.innerHTML=("TTTTTTTTTTU AS GAGNE !! L'IA a choisi le Ciseau");
 	}
 
 })
